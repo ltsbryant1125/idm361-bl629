@@ -1,5 +1,17 @@
+@font-face {
+	font-family: "Asap Sans";
+	src: url(../fonts/Asap-Regular.otf);
+}
+
+@font-face {
+	font-family: "Asap Sans";
+	src: url(../fonts/Asap-Bold.otf);
+	font-weight: bold;
+}
+
 body {
 	background-color:#4682e3;
+	font-family: "Asap Sans", Calibri, Tahoma, sans-serif;
 }
 
 #content {
