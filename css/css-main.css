@@ -1,17 +1,17 @@
 body {
-	background-color:#B1D1E1;
+	background-color:#4682e3;
 }
 
 #content {
-	min-width: 320px;
+	min-width: 300px;
 	margin: 10px auto;
 }
 
 #face {
-	width: 100px;
-	height: 100px;
-	margin: 90px auto 10px;
-	background: url(img/face_smile.svg);
+	width: 100%;
+	height: 100%;
+	margin: 50px auto 10px;
+	background: url(../img/C-Chord.svg);
 }
 
 #output {
@@ -20,26 +20,41 @@ body {
 
 @media only screen and (orientation:portrait) {
 	body {
-		background-color: #B1D1E1;
+		background-color: #4682e3;
 	}
 	#face {
-		margin: 90px auto 10px;
-		background: url(img/face_smile.svg);
+		margin: 50px auto 10px;
+		background: url(../img/C-Chord.svg);
+		width: 300px;
+		height: 484px;
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
 	}
 	#output:after {
-		content: 'PORTRAIT!';
+		content: 'Open C';
+		font-size: 2rem;
+		font-weight: bold;
 	}
 }
 
 @media only screen and (orientation:landscape) {
 	body {
-		background-color: #c5eb2f;
+		background-color: #FF9200;
 	}
 	#face {
 		margin: 40px auto 10px;
-		background: url(img/face_frown.svg);
+		background: url(../img/C-Chord-Standard-Notation.svg);
+		width: 75vw;
+		height: 75vh;
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
 	}
 	#output:after {
-		content: 'LANDSCAPE!';
+		/* content: 'Standard Notation'; */
+		color: #FFFFFF;
+		font-size: 2rem;
+		font-weight: bold;
 	}
 }
