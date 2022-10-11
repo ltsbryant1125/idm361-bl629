@@ -10,7 +10,8 @@
 }
 
 body {
-	background-color:#4682e3;
+	background-color:#596F7C;
+	color: #000E1B;
 	font-family: "Asap Sans", Calibri, Tahoma, sans-serif;
 }
 
@@ -32,7 +33,7 @@ body {
 
 @media only screen and (orientation:portrait) {
 	body {
-		background-color: #4682e3;
+		background-color: #596F7C;
 	}
 	#face {
 		margin: 50px auto 10px;
@@ -52,7 +53,7 @@ body {
 
 @media only screen and (orientation:landscape) {
 	body {
-		background-color: #FF9200;
+		background-color: #EAD7C6;
 	}
 	#face {
 		margin: 40px auto 10px;
