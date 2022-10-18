@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html manifest="cache.manifest" lang="en">
 <head>
     <title>Omni-Chords</title>
 	<!-- META -->
@@ -42,16 +42,55 @@
 
 	<meta charset="utf-8">
 	<!-- CSS -->
+	<link rel="stylesheet" href="css/css-add2home.css">
 	<link rel="stylesheet" href="css/css-normalize.css">
 	<link rel="stylesheet" href="css/css-main.css">
 </head>
 <body>
     <!-- PAGE CONTENT -->
 	<div id="content">
+		<div id="chords">
+			<h1>Open Major Chords:</h1>
+			<div class="buttondiv">
+				<div class="abut">
+					<button>
+						<p>C</p>
+					</button>
+				</div>
+				<div class="bbut">
+					<button>
+						<p>D</p>
+					</button>
+				</div>
+				<div class="cbut">
+					<button>
+						<p>E</p>
+					</button>
+				</div>
+				<div class="dbut">
+					<button>
+						<p>G</p>
+					</button>
+				</div>
+				<div class="ebut">
+					<button>
+						<p>A</p>
+					</button>
+				</div>
+			</div>
+		</div>
+
 		<div id="face"></div>
 		<div id="output"></div>
 	</div>
 	<!-- JAVASCRIPT-->
+	<script src="js/js-refresh-manifest.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		var addToHomeConfig = {
+			touchIcon: true
+		};
+	</script>
+	<script src="js/js-add2home.js"></script>
 	<script src="js/js-main.js"></script>
 </body>
 </html>

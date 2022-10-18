@@ -1,0 +1,53 @@
+CACHE MANIFEST
+# version 001
+
+CACHE:
+
+# CSS
+css/css-normalize.css
+css/css-add2home.css
+css/css-main.css
+
+# FONTS
+fonts/Asap-Bold.otf
+fonts/Asap-BoldItalic.otf
+fonts/Asap-Italic.otf
+fonts/Asap-Medium.otf
+fonts/Asap-MediumItalic.otf
+fonts/Asap-Regular.otf
+
+# IMAGES
+img/C-Chord-Standard-Notation.svg
+img/C-Chord.svg
+img/face-icon-20x20.png
+img/face-icon-29x29.png
+img/face-icon-40x40.png
+img/face-icon-50x50.png
+img/face-icon-57x57.png
+img/face-icon-58x58.png
+img/face-icon-60x60.png
+img/face-icon-72x72.png
+img/face-icon-76x76.png
+img/face-icon-80x80.png
+img/face-icon-87x87.png
+img/face-icon-100x100.png
+img/face-icon-114x114.png
+img/face-icon-120x120.png
+img/face-icon-144x144.png
+img/face-icon-152x152.png
+img/face-icon-167x167.png
+img/face-icon-180x180.png
+img/face-icon-1024x1024.png
+img/Guitar.svg
+
+# HTML
+index.html
+
+# JAVASCRIPT
+js/js-refresh-manifest.js
+js/js-add2home.js
+js/js-main.js
+
+
+## for any resources not listed above will require the user to be online
+NETWORK:
