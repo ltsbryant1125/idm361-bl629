@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# version 001
+# version 004
 
 CACHE:
 
@@ -17,8 +17,11 @@ fonts/Asap-MediumItalic.otf
 fonts/Asap-Regular.otf
 
 # IMAGES
+img/A-Chord.svg
 img/C-Chord-Standard-Notation.svg
 img/C-Chord.svg
+img/D-Chord.svg
+img/E-Chord.svg
 img/face-icon-20x20.png
 img/face-icon-29x29.png
 img/face-icon-40x40.png
@@ -37,7 +40,9 @@ img/face-icon-144x144.png
 img/face-icon-152x152.png
 img/face-icon-167x167.png
 img/face-icon-180x180.png
+img/face-icon-256x256.png
 img/face-icon-1024x1024.png
+img/G-chord.svg
 img/Guitar.svg
 
 # HTML

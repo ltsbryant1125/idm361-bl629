@@ -1,0 +1,18 @@
+<svg width="166" height="241" viewBox="0 0 166 241" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="2" y="7" width="162" height="227" fill="white"/>
+<line x1="19" y1="34" x2="19" y2="223" stroke="black" stroke-width="4"/>
+<line x1="44" y1="34" x2="44" y2="223" stroke="black" stroke-width="4"/>
+<line x1="69" y1="34" x2="69" y2="223" stroke="black" stroke-width="4"/>
+<line x1="94" y1="34" x2="94" y2="223" stroke="black" stroke-width="4"/>
+<line x1="119" y1="34" x2="119" y2="223" stroke="black" stroke-width="4"/>
+<line x1="144" y1="34" x2="144" y2="223" stroke="black" stroke-width="4"/>
+<line x1="146" y1="30" x2="17" y2="30" stroke="black" stroke-width="10"/>
+<line x1="142" y1="221" x2="17" y2="221" stroke="black" stroke-width="4"/>
+<line x1="142" y1="85" x2="17" y2="85" stroke="black" stroke-width="4"/>
+<line x1="142" y1="129" x2="17" y2="129" stroke="black" stroke-width="4"/>
+<line x1="142" y1="173" x2="17" y2="173" stroke="black" stroke-width="4"/>
+<circle cx="118" cy="151" r="14" fill="black"/>
+<circle cx="69" cy="25" r="13.5" fill="white" stroke="black"/>
+<circle cx="95" cy="107" r="14" fill="black"/>
+<circle cx="142" cy="107" r="14" fill="black"/>
+</svg>

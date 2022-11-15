@@ -24,6 +24,7 @@
 	<link href="img/face-icon-114x114.png" sizes="114x114" rel="apple-touch-icon">
 	<link href="img/face-icon-120x120.png" sizes="120x120" rel="apple-touch-icon">
 	<link href="img/face-icon-180x180.png" sizes="180x180" rel="apple-touch-icon">
+	<link href="img/face-icon-256x256.png" sizes="256x256" rel="apple-touch-icon">
 	<link href="img/face-icon-1024x1024.png" sizes="1024x1024" rel="apple-touch-icon">
 
 	<!--Tablet icons-->
@@ -47,33 +48,39 @@
 	<link rel="stylesheet" href="css/css-main.css">
 </head>
 <body>
+	<audio id="audC" src="sound/C-chord.mp3" preload="auto"></audio>
+	<audio id="audA" src="sound/A-chord.mp3" preload="auto"></audio>
+	<audio id="audD" src="sound/D-chord.mp3" preload="auto"></audio>
+	<audio id="audE" src="sound/E-chord.mp3" preload="auto"></audio>
+	<audio id="audG" src="sound/G-chord.mp3" preload="auto"></audio>
     <!-- PAGE CONTENT -->
 	<div id="content">
+		<!--Home Page-->
 		<div id="chords">
 			<h1>Open Major Chords:</h1>
 			<div class="buttondiv">
 				<div class="abut">
-					<button>
+					<button class="reg" id="chordC">
 						<p>C</p>
 					</button>
 				</div>
 				<div class="bbut">
-					<button>
+					<button class="reg" id="chordD">
 						<p>D</p>
 					</button>
 				</div>
 				<div class="cbut">
-					<button>
+					<button class="reg" id="chordE">
 						<p>E</p>
 					</button>
 				</div>
 				<div class="dbut">
-					<button>
+					<button class="reg" id="chordG">
 						<p>G</p>
 					</button>
 				</div>
 				<div class="ebut">
-					<button>
+					<button class="reg" id="chordA">
 						<p>A</p>
 					</button>
 				</div>
@@ -82,12 +89,82 @@
 
 		<div id="face"></div>
 		<div id="output"></div>
+		<!--Chord Diagrams-->
+		<div id="diagramC" class="hidden">
+			<div class="top">
+				<button id="back" class="backBut"></button>
+				<h1>Open C</h1>
+			</div>
+			<div class="mid">
+				<img class="diagram-image" src="img/C-Chord.svg" alt="C Major Chord Diagram">
+			</div>
+			<div class="bot">
+				<button id="hearC" class="inner">Hear the Chord!</button>
+				<button class="inner">Hear the Notes!</button>
+			</div>
+		</div>
+
+		<div id="diagramD" class="hidden">
+			<div class="top">
+				<button id="back2" class="backBut"></button>
+				<h1>Open D</h1>
+			</div>
+			<div class="mid">
+				<img class="diagram-image" src="img/D-Chord.svg" alt="D Major Chord Diagram">
+			</div>
+			<div class="bot">
+				<button id="hearD" class="inner">Hear the Chord!</button>
+				<button class="inner">Hear the Notes!</button>
+			</div>
+		</div>
+		
+		<div id="diagramE" class="hidden">
+			<div class="top">
+				<button id="back3" class="backBut"></button>
+				<h1>Open E</h1>
+			</div>
+			<div class="mid">
+				<img class="diagram-image" src="img/E-Chord.svg" alt="E Major Chord Diagram">
+			</div>
+			<div class="bot">
+				<button id="hearE" class="inner">Hear the Chord!</button>
+				<button class="inner">Hear the Notes!</button>
+			</div>
+		</div>
+
+		<div id="diagramG" class="hidden">
+			<div class="top">
+				<button id="back4" class="backBut"></button>
+				<h1>Open G</h1>
+			</div>
+			<div class="mid">
+				<img class="diagram-image" src="img/G-Chord.svg" alt="G Major Chord Diagram">
+			</div>
+			<div class="bot">
+				<button id="hearG" class="inner">Hear the Chord!</button>
+				<button class="inner">Hear the Notes!</button>
+			</div>
+		</div>
+
+		<div id="diagramA" class="hidden">
+			<div class="top">
+				<button id="back5" class="backBut"></button>
+				<h1>Open A</h1>
+			</div>
+			<div class="mid">
+				<img class="diagram-image" src="img/A-Chord.svg" alt="A Major Chord Diagram">
+			</div>
+			<div class="bot">
+				<button id="hearA" class="inner">Hear the Chord!</button>
+				<button class="inner">Hear the Notes!</button>
+			</div>
+		</div>
 	</div>
 	<!-- JAVASCRIPT-->
 	<script src="js/js-refresh-manifest.js" type="text/javascript"></script>
 	<script type="text/javascript">
 		var addToHomeConfig = {
-			touchIcon: true
+			touchIcon: false
 		};
 	</script>
 	<script src="js/js-add2home.js"></script>
