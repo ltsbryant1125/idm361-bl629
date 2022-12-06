@@ -53,6 +53,22 @@
 	<audio id="audD" src="sound/D-chord.mp3" preload="auto"></audio>
 	<audio id="audE" src="sound/E-chord.mp3" preload="auto"></audio>
 	<audio id="audG" src="sound/G-chord.mp3" preload="auto"></audio>
+	<audio id="sndC" src="sound/Cnote-CChord.mp3" preload="auto"></audio>
+	<audio id="sndE" src="sound/Enote-CChord.mp3" preload="auto"></audio>
+	<audio id="sndG" src="sound/Gnote-CChord.mp3" preload="auto"></audio>
+	<audio id="sndD" src="sound/Dnote-DChord.mp3" preload="auto"></audio>
+	<audio id="sndF#" src="sound/Fdnote-DChord.mp3" preload="auto"></audio>
+	<audio id="sndAd" src="sound/Anote-DChord.mp3" preload="auto"></audio>
+	<audio id="sndA" src="sound/Anote-AChord.mp3" preload="auto"></audio>
+	<audio id="sndC#" src="sound/Canote-AChord.mp3" preload="auto"></audio>
+	<audio id="sndEa" src="sound/Enote-AChord.mp3" preload="auto"></audio>
+	<audio id="sndEe" src="sound/Enote-EChord.mp3" preload="auto"></audio>
+	<audio id="sndB" src="sound/Bnote-EChord.mp3" preload="auto"></audio>
+	<audio id="sndG#" src="sound/Genote-EChord.mp3" preload="auto"></audio>
+	<audio id="sndGg" src="sound/Gnote-GChord.mp3" preload="auto"></audio>
+	<audio id="sndBg" src="sound/Bnote-GChord.mp3" preload="auto"></audio>
+	<audio id="sndDg" src="sound/Dnote-GChord.mp3" preload="auto"></audio>
+
     <!-- PAGE CONTENT -->
 	<div id="content">
 		<!--Home Page-->
@@ -94,34 +110,68 @@
 			<div class="top">
 				<button id="back" class="backBut"></button>
 				<h1>Open C</h1>
+				<div class="space">
+				</div>
 			</div>
 			<div class="mid">
 				<img class="diagram-image" src="img/C-Chord.svg" alt="C Major Chord Diagram">
 			</div>
 			<div class="bot">
 				<button id="hearC" class="inner">Hear the Chord!</button>
-				<button class="inner">Hear the Notes!</button>
+				<button id="modeC" class="inner">Hear the Notes!</button>
 			</div>
+		</div>
+		<!--Notes-->
+		<div id="popC" class="modal">
+			<!-- Modal content -->
+  			<div class="modal-content">
+				<div>
+					<span class="close">&times;</span>
+				</div>
+				<div>
+					<button id="inCc" class="notes">C</button>
+					<button id="inEc" class="notes">E</button>
+					<button id="inGc" class="notes">G</button>
+				</div>
+  			</div>
 		</div>
 
 		<div id="diagramD" class="hidden">
 			<div class="top">
 				<button id="back2" class="backBut"></button>
 				<h1>Open D</h1>
+				<div class="space">
+				</div>
 			</div>
 			<div class="mid">
 				<img class="diagram-image" src="img/D-Chord.svg" alt="D Major Chord Diagram">
 			</div>
 			<div class="bot">
 				<button id="hearD" class="inner">Hear the Chord!</button>
-				<button class="inner">Hear the Notes!</button>
+				<button id="modeD" class="inner">Hear the Notes!</button>
 			</div>
+		</div>
+		<!--Notes-->
+		<div id="popD" class="modal">
+			<!-- Modal content -->
+  			<div class="modal-content">
+				<div>
+					<span class="close1">&times;</span>
+				</div>
+				<div>
+					<button id="inDd" class="notes">D</button>
+					<button id="inF#d" class="notes">F#</button>
+					<button id="inAd" class="notes">A</button>
+				</div>
+  			</div>
 		</div>
 		
 		<div id="diagramE" class="hidden">
 			<div class="top">
 				<button id="back3" class="backBut"></button>
 				<h1>Open E</h1>
+				<div class="space">
+				</div>
 			</div>
 			<div class="mid">
 				<img class="diagram-image" src="img/E-Chord.svg" alt="E Major Chord Diagram">
@@ -136,6 +186,8 @@
 			<div class="top">
 				<button id="back4" class="backBut"></button>
 				<h1>Open G</h1>
+				<div class="space">
+				</div>
 			</div>
 			<div class="mid">
 				<img class="diagram-image" src="img/G-Chord.svg" alt="G Major Chord Diagram">
@@ -150,6 +202,8 @@
 			<div class="top">
 				<button id="back5" class="backBut"></button>
 				<h1>Open A</h1>
+				<div class="space">
+				</div>
 			</div>
 			<div class="mid">
 				<img class="diagram-image" src="img/A-Chord.svg" alt="A Major Chord Diagram">

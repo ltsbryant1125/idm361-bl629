@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# version 004
+# version 007
 
 CACHE:
 
@@ -17,6 +17,7 @@ fonts/Asap-MediumItalic.otf
 fonts/Asap-Regular.otf
 
 # IMAGES
+img/ArrowBack.svg
 img/A-Chord.svg
 img/C-Chord-Standard-Notation.svg
 img/C-Chord.svg
@@ -52,6 +53,16 @@ index.html
 js/js-refresh-manifest.js
 js/js-add2home.js
 js/js-main.js
+
+# SOUND
+sound/A-chord.mp3
+sound/C-chord.mp3
+sound/D-chord.mp3
+sound/E-chord.mp3
+sound/G-chord.mp3
+sound/Cnote-CChord.mp3
+sound/Enote-CChord.mp3
+sound/Gnote-CChord.mp3
 
 
 ## for any resources not listed above will require the user to be online
