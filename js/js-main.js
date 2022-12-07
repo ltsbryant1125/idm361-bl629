@@ -115,7 +115,7 @@ const sndDObj = document.getElementById("sndD");
 const sndFdObj = document.getElementById("sndF#");
 const sndAdObj = document.getElementById("sndAd");
 
-const sndAObj = document.getElementById("sndA");
+const sndAaObj = document.getElementById("sndA");
 const sndCaObj = document.getElementById("sndC#");
 const sndEaObj = document.getElementById("sndEa");
 
@@ -135,6 +135,17 @@ const hearDObj = document.getElementById("inDd");
 const hearFdObj = document.getElementById("inF#d");
 const hearAdObj = document.getElementById("inAd");
 
+const hearEeObj = document.getElementById("inEe");
+const hearBeObj = document.getElementById("inBe");
+const hearGeObj = document.getElementById("inGe");
+
+const hearGgObj = document.getElementById("inGg");
+const hearBgObj = document.getElementById("inBg");
+const hearDgObj = document.getElementById("inDg");
+
+const hearAaObj = document.getElementById("inAa");
+const hearCaObj = document.getElementById("inCa");
+const hearEaObj = document.getElementById("inEa");
 
 hearCObj.addEventListener ("click", function() {
     stopAllAudio();
@@ -159,12 +170,57 @@ hearDObj.addEventListener ("click", function() {
 hearFdObj.addEventListener ("click", function() {
     stopAllAudio();
     sndFdObj.play();
-})
+});
 
 hearAdObj.addEventListener ("click", function() {
     stopAllAudio();
     sndAdObj.play();
-})
+});
+
+hearEeObj.addEventListener ("click", function() {
+    stopAllAudio();
+    sndEeObj.play();
+});
+
+hearBeObj.addEventListener ("click", function() {
+    stopAllAudio();
+    sndBObj.play();
+});
+
+hearGeObj.addEventListener ("click", function() {
+    stopAllAudio();
+    sndGeObj.play();
+});
+
+hearGgObj.addEventListener("click", function() {
+    stopAllAudio();
+    sndGgObj.play();
+});
+
+hearBgObj.addEventListener("click", function() {
+    stopAllAudio();
+    sndBgObj.play();
+});
+
+hearDgObj.addEventListener("click", function() {
+    stopAllAudio();
+    sndDgObj.play();
+});
+
+hearAaObj.addEventListener("click", function() {
+    stopAllAudio();
+    sndAaObj.play();
+});
+
+hearCaObj.addEventListener("click", function() {
+    stopAllAudio();
+    sndCaObj.play();
+});
+
+hearEaObj.addEventListener("click", function() {
+    stopAllAudio();
+    sndEaObj.play();
+});
 
 function stopAllAudio() {
     audCObj.pause();
@@ -189,8 +245,8 @@ function stopAllAudio() {
     sndFdObj.currentTime = 0;
     sndAdObj.pause();
     sndAdObj.currentTime = 0;
-    sndAObj.pause();
-    sndAObj.currentTime = 0;
+    sndAaObj.pause();
+    sndAaObj.currentTime = 0;
     sndCaObj.pause();
     sndCaObj.currentTime = 0;
     sndEaObj.pause();
@@ -211,12 +267,22 @@ function stopAllAudio() {
 
 var modalC = document.getElementById("popC");
 var modalD = document.getElementById("popD");
+var modalE = document.getElementById("popE");
+var modalG = document.getElementById("popG");
+var modalA = document.getElementById("popA");
 
 var btnC = document.getElementById("modeC");
 var btnD = document.getElementById("modeD");
+var btnE = document.getElementById("modeE");
+var btnG = document.getElementById("modeG");
+var btnA = document.getElementById("modeA");
 
 var spanC = document.getElementsByClassName("close")[0];
 var spanD = document.getElementsByClassName("close1")[0];
+var spanE = document.getElementsByClassName("close2")[0];
+var spanG = document.getElementsByClassName("close3")[0];
+var spanA = document.getElementsByClassName("close4")[0];
+
 
 btnC.onclick = function() {
     modalC.style.display = "block";
@@ -225,6 +291,21 @@ btnC.onclick = function() {
 
 btnD.onclick = function() {
     modalD.style.display = "block";
+    stopAllAudio();
+}
+
+btnE.onclick = function() {
+    modalE.style.display = "block";
+    stopAllAudio();
+}
+
+btnG.onclick = function() {
+    modalG.style.display = "block";
+    stopAllAudio();
+}
+
+btnA.onclick = function() {
+    modalA.style.display = "block";
     stopAllAudio();
 }
 
@@ -238,6 +319,21 @@ spanD.onclick = function () {
     stopAllAudio();
 }
 
+spanE.onclick = function () {
+    modalE.style.display = "none";
+    stopAllAudio();
+}
+
+spanG.onclick = function () {
+    modalG.style.display = "none";
+    stopAllAudio();
+}
+
+spanA.onclick = function () {
+    modalA.style.display = "none";
+    stopAllAudio();
+}
+
 window.onclick = function(event) {
     if (event.target == modalC) {
         modalC.style.display = "none";
@@ -245,6 +341,18 @@ window.onclick = function(event) {
     }
     if (event.target == modalD) {
         modalD.style.display = "none";
+        stopAllAudio();
+    }
+    if (event.target == modalE) {
+        modalE.style.display = "none";
+        stopAllAudio();
+    }
+    if (event.target == modalG) {
+        modalG.style.display = "none";
+        stopAllAudio();
+    }
+    if (event.target == modalA) {
+        modalA.style.display = "none";
         stopAllAudio();
     }
 }
