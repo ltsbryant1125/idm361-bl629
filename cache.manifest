@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# version 007
+# version 008
 
 CACHE:
 
@@ -56,13 +56,25 @@ js/js-main.js
 
 # SOUND
 sound/A-chord.mp3
+sound/Anote-AChord.mp3
+sound/Anote-DChord.mp3
+sound/Bnote-EChord.mp3
+sound/Bnote-GChord.mp3
 sound/C-chord.mp3
-sound/D-chord.mp3
-sound/E-chord.mp3
-sound/G-chord.mp3
+sound/Canote-AChord.mp3
 sound/Cnote-CChord.mp3
+sound/D-chord.mp3
+sound/Dnote-DChord.mp3
+sound/Dnote-GChord.mp3
+sound/E-chord.mp3
+sound/Enote-AChord.mp3
 sound/Enote-CChord.mp3
+sound/Enote-EChord.mp3
+sound/Fdnote-DChord.mp3
+sound/G-chord.mp3
+sound/Genote-EChord.mp3
 sound/Gnote-CChord.mp3
+sound/Gnote-GChord.mp3
 
 
 ## for any resources not listed above will require the user to be online
